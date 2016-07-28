@@ -1,0 +1,21 @@
+{
+  "name": "tardis-most-popular-api",
+  "version": "0.0.1",
+  "description": "Proxies query to CaaS ElasticSearch to retrieve most popular for a brand and window of time",
+  "main": "index.js",
+  "scripts": {
+    "package": "rm -rf dist && mkdir dist && cp -r node_modules dist && cd dist && zip -r tardis-popular.zip .",
+    "test": "exit 0"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "aws-sdk": "^2.4.9",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-es2016": "^6.11.3",
+    "babel-preset-stage-0": "^6.5.0"
+  },
+  "dependencies": {
+    "request": "^2.74.0"
+  }
+}
